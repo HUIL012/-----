@@ -1,0 +1,21 @@
+var BossZ=setInterval（）  //要写在前面
+BossZ=setInterval()
+
+如果setInterval的速度改不了可以先用cleraInterval停止时间循环再用BossZ=setInterval(..)开始；
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

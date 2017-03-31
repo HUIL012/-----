@@ -1,0 +1,26 @@
+*{margin:0px; padding:0px; cursor:default;}
+body,#gameBox,#cs, #b, #cs3{
+	user-select:none;
+	-ms-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	-webkit-user-select:none;
+	-webkit-touch-callout:none;
+	-webkit-user-drag:none;
+}
+#gameBox{border:2px solid #d88cff; width:800px; height:600px; position:fixed; left:50%; top:50%; margin:-300px 0 0 -400px; background:url(images/bg_03.jpg) top left repeat;}
+#body{background:url(images/bg_03.jpg) top left repeat;}
+#cs, #b, #cs3{color:#000; opacity:.5; filter:alpha(opacity=50); line-height:26px;}
+#boss{position:absolute; top:0px; left:0px; z-index:10;}
+#bossMax{ position:absolute; top:0px; right:0px; z-index:11;}
+
+#gameover{ position:absolute; z-index:100; top:0px; left:0px; width:100%; height:100%; background:#000; text-align:center; display:none;}
+#gameover h1{ font-family:'Arial'; font-size:39px; line-height:300px; color:#fff;}
+#gameover p{ color:#9900e9; line-height:26px; font:22px '微软雅黑';}
+
+#foods{ position:absolute; z-index:9; top:100px; left:100px;}
+
+#menu{position:absolute; top:5px; right:0px;}
+#menu li{list-style:none; float:left; font-family:'Arial'; font-size:14px; margin-right:10px; color:#F07917;}
+#menu li:hover{color:#C00;}
+
